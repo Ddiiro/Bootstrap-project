@@ -26,15 +26,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Mobile First
+# 📖 Bootstrap Project.
 
 
-Mobile First is a project that helps test and learn and the basic set up of an html & css project with no errors that designs for both mobile & desktop responsiveness.
+Boostrap Project is a project that helps test and learn and the basic set up of an html & css project with no errors that designs for both mobile & desktop responsiveness using CSS framework(Specifically <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootsrap</a> ).
 
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Html, CSS & Figma.
+> Html, CSS , Figma & Bootstrap.
 
 
 <details>
@@ -52,6 +52,7 @@ Mobile First is a project that helps test and learn and the basic set up of an h
 - Css.
 - Linter.
 - Figma
+- Bootstrap.
 
 ### 🚀 Live Demo <a name="live-demo"></a>
 You can access the live demo here: <a href="https://ddiiro.github.io/Bootstrap-project/">Bootsrap Project</a>
