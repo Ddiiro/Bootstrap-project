@@ -54,7 +54,7 @@ Mobile First is a project that helps test and learn and the basic set up of an h
 - Figma
 
 ### 🚀 Live Demo <a name="live-demo"></a>
-You can access the live demo here: <a href="https://ddiiro.github.io/mobileFirst/">Ddiiro's Personal Portfolio</a>
+You can access the live demo here: <a href="https://ddiiro.github.io/Bootstrap-project/">Bootsrap Project</a>
 
 <!-- GETTING STARTED -->
 
@@ -100,7 +100,7 @@ Install this project with:
 Still under construction:
 
 You can checkout my deployed personal profile page by clicking on 
-<a href="https://ddiiro.github.io/mobileFirst/">Ddiiro's Personal Portfolio</a>
+<a href="https://ddiiro.github.io/Bootstrap-project/">Bootsrap Project</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
