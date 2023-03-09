@@ -200,6 +200,8 @@ padding-top: 10rem;
  line-height: 52px;
  font-weight: 700;
  color:  #ffffff;
+ display: grid;
+place-content: center;
 }
 
 .container-fluid .row .col-8 #modal-text {
@@ -234,4 +236,36 @@ padding-top: 10rem;
     margin-right: 10px;
 }
 
-.
+.row .wrapper {
+ color:#EBEBFF;
+ font-size: 20px;
+ font-weight: 400;
+ line-height: 28px;
+ max-width: 35%;
+ margin: auto;
+ margin-bottom: 5rem;
+}
+
+.row .mb-3 .form-control{
+    width: 30%;
+    margin-top: 5rem;
+    margin: auto;
+}
+
+.row .btn {
+    border:  2px solid #dfe1e6;
+    color: #6070ff;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 142px;
+    max-height: 48px;
+    margin: auto;
+    margin-bottom: 3rem;
+    color: white;
+    box-shadow: #7f8cff;
+}
+
+.row .btn:hover {
+  background-color: #4053fc;
+  color: #fff;
+}
