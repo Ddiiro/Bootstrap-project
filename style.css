@@ -1,7 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+    --primary-font: "Poppins", sans-serif;
+    --secondary-font: "Roboto", sans-serif;
+    --tertiary-font: "Inter", sans-serif;
+}
+
 * {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--primary-font);
 }
 
 .navbar {
@@ -15,6 +23,8 @@
   font-weight: 500;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+ line-height: 20px;
 }
 
 .first-section {
@@ -29,16 +39,22 @@
 .navbar-nav .nav-item .nav-link {
   color: #344563;
   font-size: 15px;
+  font-weight: 500;
+ line-height: 20px;
 
 }
 
 .first-section .intro{
   color: #091e42;
   font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
 }
 
 .first-section .details {
     color: #344563;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .contain {
@@ -66,6 +82,8 @@
   color: #091e42;
   font-size: 40px;
   font-style: bold;
+  font-weight: 700;
+ line-height: 52px;
 }
 
 .card .list-group {
@@ -76,10 +94,11 @@
   right: 10px;
 }
 
-.card ,card-text {
+.card .card-text {
  color: #344563;
  font-size: 16px;
  line-height: 24px;
+ font-weight: 400;
 }
 
 .card .list-group .list-group-item .badge {
@@ -110,12 +129,15 @@
 .main-about .intro {
   color: #091e42;
   font-size: 48px; 
+  font-weight: 700;
+ line-height: 52px;
 }
 
 .summary-desktop {
   color:#344563 ;
   font-size: 16px;
   line-height: 24px;
+  font-weight: 400;
 }
 
 .main-about .btn {
@@ -129,3 +151,40 @@
     background-color: #4053fc;
     color: #fff;
   }
+.lang {
+    font-weight: 400;
+    line-height: 24px;
+    color: #344563;
+    font-size: 20px;
+}
+.lang-skills-desktop {
+    list-style: none; 
+}
+
+.stack-desktop {
+  margin-right: 20px;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  max-width: 122px;
+  max-height: 120px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.stack-desktop p {
+ line-height: 20px;
+ color: #253858;
+ font-weight: 500;
+ font-size: 15px;
+ padding-top: 10px;
+ padding-left: 5px;
+}
+.lang-skills-desktop a {
+    color:#344563 ;
+    font-size: 20px;
+    position: relative;
+    right: 10px;
+    padding-left: 0;
+    margin-left: 0;
+}
