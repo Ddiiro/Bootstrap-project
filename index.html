@@ -15,10 +15,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/card.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,10 +26,12 @@
 </head>
 
 <body>
+  <div class="desktop">
+
     <div class="landingPage">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid position-relative">
-              <a class="navbar-brand" href="#">My Logo</a>
+              <a class="navbar-brand text-primary" href="#">My Logo</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -52,10 +51,10 @@
             </div>
           </nav>
     <main class="first-section">
-        <span id="content1">I'm Joseph</span>
-        <span id="content2">Glad to meet you!</span>
+        <p class="intro">I'm Joseph</p>
+        <p class="intro">Glad to meet you!</p>
         
-        <p>
+        <p class="details">
             I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience!
             If you like what you see and have a project you need coded,
@@ -63,18 +62,18 @@
         </p>
         <p class="contain">LET’S CONNECT</p>
 
-        <ul class="social">
-            <li> <a href=""><img src="Images/twitter.svg" alt=""></a></li>
-            <li> <a href=""><img src="Images/Linkedin icon.svg" alt=""></a></li>
-            <li> <a href=""><img src="Images/m vector.svg" alt=""></a></li>
-            <li> <a href=""><img src="Images/github.svg" alt=""></a></li>
-            <li> <a href=""><img src="Images/Vector.svg" alt=""></a></li>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item"> <a href=""><img src="Images/twitter.svg" alt=""></a></li>
+            <li class="list-group-item"> <a href=""><img src="Images/Linkedin icon.svg" alt=""></a></li>
+            <li class="list-group-item"> <a href=""><img src="Images/m vector.svg" alt=""></a></li>
+            <li class="list-group-item"> <a href=""><img src="Images/github.svg" alt=""></a></li>
+            <li class="list-group-item"> <a href=""><img src="Images/Vector.svg" alt=""></a></li>
         </ul>
     </main>
 </div>
     <section class="grid-container">
         <div class="desktop-card">
-            <div class="card d-flex flex-row" style="width: 80%; ">
+            <div class="card d-flex flex-row" style="width: 90%; ">
                 <img class="card-img-top p-2" style="width: 45%; max-height:448px;" src="Images/desktop/page-1" alt="">
                 <div class="card-body p-2 max-height:448px;">
                   <h2 class="card-title">Tonic</h2>
@@ -95,7 +94,7 @@
                   <a href="#" class="btn btn-primary">See Project</a>
                 </div>
               </div>
-              <div class="card d-flex flex-row" style="width: 80%; ">
+              <div class="card d-flex flex-row" style="width: 90%; ">
                
                 <div class="card-body p-2 max-height:448px;">
                     <h2 class="card-title">Multi-Post Stories</h2>
@@ -119,7 +118,7 @@
                 </div>
                 <img class="card-img-top p-2" style="width: 45%; max-height:448px;" src="Images/desktop/page-2" alt="">
               </div>
-              <div class="card d-flex flex-row" style="width: 80%; ">
+              <div class="card d-flex flex-row" style="width: 90%; ">
                 <img class="card-img-top p-2" style="width: 45%; max-height:448px;" src="Images/desktop/page-3" alt="">
                 <div class="card-body p-2 max-height:448px;">
                   <h2 class="card-title">Facebook 360</h2>
@@ -141,7 +140,7 @@
                   <a href="#" class="btn btn-primary">See Project</a>
                 </div>
               </div>
-              <div class="card d-flex flex-row" style="width: 80%; ">
+              <div class="card d-flex flex-row" style="width: 90%; ">
                
                 <div class="card-body p-2 max-height:448px;">
                     <h2 class="card-title">Uber Navigation</h2>
@@ -252,6 +251,8 @@
         
     </section>
     <!-- the contact page ends here -->
+
+  </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
