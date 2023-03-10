@@ -57,6 +57,8 @@ Boostrap Project is a project that helps test and learn and the basic set up of 
 ### 🚀 Live Demo <a name="live-demo"></a>
 You can access the live demo here: <a href="https://ddiiro.github.io/Bootstrap-project/">Bootsrap Project</a>
 
+Video explianing the project <a href="https://www.loom.com/share/54a1d208612b408c8c483e8c078b4e4c">Live Video</a>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
